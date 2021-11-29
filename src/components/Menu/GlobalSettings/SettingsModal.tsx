@@ -103,7 +103,7 @@ const SettingsModal: React.FC<InjectedModalProps> = ({ onDismiss }) => {
         </Flex>
         <Flex justifyContent="space-between" alignItems="center">
           <Flex alignItems="center">
-            <Text>{t('Sizzle sounds')}</Text>
+            <Text>{t('Chimp sounds')}</Text>
             <QuestionHelper text={t('Truly immersive and tasty trading experience')} placement="top-start" ml="4px" />
           </Flex>
           <PancakeToggleWrapper>

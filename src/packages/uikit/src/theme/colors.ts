@@ -2,7 +2,7 @@ import { Colors } from './types'
 
 export const baseColors = {
   failure: '#ED4B9E',
-  primary: '#DE2549',
+  primary: '#2E4D9E',
   primaryBright: '#53DEE9',
   primaryDark: '#0098A1',
   secondary: '#7645D9',
@@ -29,7 +29,7 @@ export const lightColors: Colors = {
   dropdown: '#F6F6F6',
   dropdownDeep: '#EEEEEE',
   invertedContrast: '#FFFFFF',
-  input: '#FAF1EA',
+  input: '#DEEAFF',
   inputSecondary: '#d7caec',
   tertiary: '#EFF4F5',
   text: '#432645',
@@ -37,7 +37,7 @@ export const lightColors: Colors = {
   textSubtle: '#432645',
   disabled: '#E9EAEB',
   gradients: {
-    bubblegum: 'linear-gradient(180deg, #E3CCCB -34.7%, #F9F1EA 79.3%)',
+    bubblegum: 'linear-gradient(180deg, #2E4D9E -34.7%, #6B95F2 79.3%)',
     inverseBubblegum: 'linear-gradient(139.73deg, #F3EFFF 0%, #E5FDFF 100%)',
     cardHeader: 'linear-gradient(111.68deg, #F2ECF2 0%, #E8F2F6 100%)',
     blue: 'linear-gradient(180deg, #A7E8F1 0%, #94E1F2 100%)',
@@ -60,7 +60,7 @@ export const darkColors: Colors = {
   dropdown: '#1E1D20',
   dropdownDeep: '#100C18',
   invertedContrast: '#191326',
-  input: '#FAF1EA',
+  input: '#DEEAFF',
   inputSecondary: '#262130',
   primaryDark: '#0098A1',
   tertiary: '#353547',
@@ -69,7 +69,7 @@ export const darkColors: Colors = {
   textSubtle: '#432645',
   disabled: '#524B63',
   gradients: {
-    bubblegum: 'linear-gradient(180deg, #E3CCCB -34.7%, #F9F1EA 79.3%)',
+    bubblegum: 'linear-gradient(180deg, #2E4D9E -34.7%, #6B95F2 79.3%)',
     inverseBubblegum: 'linear-gradient(139.73deg, #3D2A54 0%, #313D5C 100%)',
     cardHeader: 'linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)',
     blue: 'linear-gradient(180deg, #00707F 0%, #19778C 100%)',

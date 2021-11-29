@@ -8,7 +8,7 @@ const PancakeToggle: React.FC<PancakeToggleProps> = ({ checked, scale = scales.L
     <PancakeLabel scale={scale} checked={checked} htmlFor={props.id || 'pancake-toggle'}>
       <div className="pancakes">
         <div className="pancake" />
-        <img alt="tst" className="wagyu" src="/images/toggle/wagyu.png" />
+        <img alt="tst" className="wagyu" src="/images/toggle/chimp.png" />
       </div>
     </PancakeLabel>
   </PancakeStack>

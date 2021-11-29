@@ -143,17 +143,17 @@ export const socials = [
   {
     label: 'Telegram',
     icon: 'TelegramIcon',
-    href: 'http://t.me/wagyuswapofficial',
+    href: 'https://t.me/ChimpSwap',
   },
-  {
-    label: 'Medium',
-    icon: 'MediumIcon',
-    href: 'https://medium.com/@wagyuswap.app',
-  },
+  // {
+  //   label: 'Medium',
+  //   icon: 'MediumIcon',
+  //   href: 'https://medium.com/@wagyuswap.app',
+  // },
   {
     label: 'Twitter',
     icon: 'TwitterIcon',
-    href: 'https://twitter.com/WagyuSwap_app',
+    href: 'https://twitter.com/ChimpSwapVelas',
   },
 ]
 

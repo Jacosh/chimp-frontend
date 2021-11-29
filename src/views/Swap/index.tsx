@@ -301,7 +301,7 @@ export default function Swap({ history }: RouteComponentProps) {
   )
 
   return (
-    <Page bgUrl="/images/swap/bg.svg">
+    <Page /* bgUrl="/images/swap/bg.svg" */>
       <AppBody>
         <AppHeader title={t('Exchange')} subtitle={t('Trade tokens in an instant')} />
         <Wrapper id="swap-page">

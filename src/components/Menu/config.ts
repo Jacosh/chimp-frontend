@@ -25,26 +25,26 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
       // },
     ],
   },
-  {
-    label: t('Farms'),
-    icon: 'FarmIcon',
-    href: '/farms',
-  },
-  {
-    label: t('Pools'),
-    icon: 'PoolIcon',
-    href: '/pools',
-  },
+  // {
+  //   label: t('Farms'),
+  //   icon: 'FarmIcon',
+  //   href: '/farms',
+  // },
+  // {
+  //   label: t('Pools'),
+  //   icon: 'PoolIcon',
+  //   href: '/pools',
+  // },
   // {
   //   label: t('Prediction (BETA)'),
   //   icon: 'PredictionsIcon',
   //   href: '/prediction',
   // },
-  {
-    label: t('Lottery'),
-    icon: 'TicketIcon',
-    href: '/lottery',
-  },
+  // {
+  //   label: t('Lottery'),
+  //   icon: 'TicketIcon',
+  //   href: '/lottery',
+  // },
   // {
   //   label: t('Collectibles'),
   //   icon: 'NftIcon',
@@ -73,54 +73,54 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
   //     },
   //   ],
   // },
-  {
-    label: t('Info'),
-    icon: 'InfoIcon',
-    href: '/info',
-  },
+  // {
+  //   label: t('Info'),
+  //   icon: 'InfoIcon',
+  //   href: '/info',
+  // },
   // {
   //   label: t('IFO'),
   //   icon: 'IfoIcon',
   //   href: '/ifo',
   // },
-  {
-    label: t('More'),
-    icon: 'MoreIcon',
-    items: [
-      // {
-      //   label: t('Contact'),
-      //   href: 'https://docs.wagyuswap.app/wagyuswap/',
-      // },
-      // {
-      //   label: t('Voting'),
-      //   href: '/voting',
-      // },
-      {
-        label: t('Github'),
-        href: 'https://github.com/wagyuswapapp',
-      },
-      {
-        label: t('Cross chain swapz'),
-        href: 'https://cross.swapz.app',
-      },
-      {
-        label: t('Docs'),
-        href: 'https://docs.wagyuswap.app/wagyuswap/',
-      },
-      {
-        label: t('Blog'),
-        href: 'https://medium.com/@wagyuswap.app',
-      },
-      {
-        label: t('Support'),
-        href: 'mailto:support@wagyuswap.app',
-      },
-      // {
-      //   label: t('Merch'),
-      //   href: 'https://pancakeswap.creator-spring.com/',
-      // },
-    ],
-  },
+  // {
+  //   label: t('More'),
+  //   icon: 'MoreIcon',
+  //   items: [
+  //     // {
+  //     //   label: t('Contact'),
+  //     //   href: 'https://docs.wagyuswap.app/wagyuswap/',
+  //     // },
+  //     // {
+  //     //   label: t('Voting'),
+  //     //   href: '/voting',
+  //     // },
+  //     {
+  //       label: t('Github'),
+  //       href: 'https://github.com/wagyuswapapp',
+  //     },
+  //     {
+  //       label: t('Cross chain swapz'),
+  //       href: 'https://cross.swapz.app',
+  //     },
+  //     {
+  //       label: t('Docs'),
+  //       href: 'https://docs.wagyuswap.app/wagyuswap/',
+  //     },
+  //     {
+  //       label: t('Blog'),
+  //       href: 'https://medium.com/@wagyuswap.app',
+  //     },
+  //     {
+  //       label: t('Support'),
+  //       href: 'mailto:support@wagyuswap.app',
+  //     },
+  //     // {
+  //     //   label: t('Merch'),
+  //     //   href: 'https://pancakeswap.creator-spring.com/',
+  //     // },
+  //   ],
+  // },
 ]
 
 export default config
