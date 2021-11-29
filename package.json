@@ -16,8 +16,7 @@
         "format:write": "prettier --write '**/*.{js,jsx,ts,tsx}'",
         "updateLPsAPR": "ts-node --compiler-options '{\"module\":\"commonjs\"}' scripts/updateLPsAPR.ts",
         "prepare": "husky install",
-        "serve": "serve -s build",
-        "heroku-postbuild": "cd chimp-frontend && yarn install && yarn build"
+        "serve": "serve -s build"
     },
     "browserslist": {
         "production": [

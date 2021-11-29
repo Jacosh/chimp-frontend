@@ -4,8 +4,8 @@ import { PageMeta } from './types'
 export const DEFAULT_META: PageMeta = {
   title: 'ChimpSwap',
   description:
-    'The most popular AMM on VELAS by user count! Earn WAG through yield farming or win it in the Lottery, then stake it in Sizzle Pools to earn more tokens! Initial Farm Offerings (new token launch model pioneered by ChimpSwap), NFTs, and more, on a platform you can trust.',
-  image: 'https://exchange.wagyusw.app/images/hero.png',
+    'The most popular AMM on VELAS! Earn CHIMP through yield farming, then stake it in Apeish Pools to earn more tokens! Initial Chimp Offerings, NFTs, and more, on a platform you can trust.',
+  image: 'https://chimpswap.app/images/hero.png',
 }
 
 export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
