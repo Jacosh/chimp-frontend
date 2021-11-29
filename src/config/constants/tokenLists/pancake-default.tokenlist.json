@@ -14,7 +14,7 @@
             "symbol": "CHIMP",
             "address": "0x19a284049ed9c31801f8d33100fdeb3952f699e4",
             "chainId": 106,
-            "decimals": 18,
+            "decimals": 9,
             "logoURI": "https://github.com/chimpswapapp/assets/blob/master/blockchains/velas/assets/0x19a284049ed9c31801f8d33100fdeb3952f699e4/logo.png?raw=true"
         },
         {
